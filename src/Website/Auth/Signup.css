@@ -1,0 +1,47 @@
+#signupbutton{
+    position: relative;
+    left: -0px;
+    top: 30px;
+    font-size: 20px;
+    padding: px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    
+    border-radius: 30px;
+    
+   border-color: transparent;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    
+    background-color: #0790E8;
+}
+
+#signupcontainer{
+    background-color: white;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 5px;
+    margin:auto;
+    display: block;
+    max-width: 500px;
+    padding-top: 0px;;
+    min-height: 75%;
+}
+
+#errorfield2{
+    font-size: 16px;
+    color: red;
+    padding-left: 65px;
+    position: relative;
+    top: -50px;
+}
+
+#username1{
+    display: block;
+    margin-left: 50px;
+    transition: ease-in-out 0.2s;
+    margin-top: 40px;
+}

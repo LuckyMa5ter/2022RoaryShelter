@@ -1,0 +1,62 @@
+#contactholder{
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-evenly;
+}
+
+#ciholder{
+    display: flex;
+    flex-direction: column;
+    border-right-style: solid;
+
+}
+
+#ciholder1{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#cidivider{
+width: 1px;
+height: 125px;;
+background-color: #1966ae;
+}
+
+@media (width < 700px){
+   #cidivider{
+    width: 125px;
+    margin: auto;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+   }
+}
+
+#infospace{
+    height: 5px;
+   
+}
+
+#contactspacer{
+    height: 60px;
+}
+
+
+
+@media (width < 700px) {
+    #contactholder{
+        display: flex;
+        flex-direction:column ;
+        justify-content: space-evenly;
+       
+    }
+
+    #ciholder{
+        margin-bottom: 35px;
+    }
+
+    #contactspacer{
+        height: 30px;
+    }
+}

@@ -1,0 +1,7 @@
+#usersetbut{
+    color: white;
+}
+
+#usersetbut:hover{
+    cursor: pointer;
+}

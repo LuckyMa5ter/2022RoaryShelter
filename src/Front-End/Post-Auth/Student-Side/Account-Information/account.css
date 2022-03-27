@@ -1,0 +1,77 @@
+
+
+#changePassword{
+    height: 40px;
+    width: 100px;
+    background-color: #1966ae;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.spacingBars{
+    height:0.1px;
+    width: 40vw;
+    border-width: 0.1px;
+    border:black;
+    border-style: none;
+    border-bottom-style:solid ;
+}
+
+#account-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#circleaccticon{    
+    display: block;
+    justify-content: center;
+    position: center;
+    height: 200px;
+    width: 200px;
+    color:gray;
+}
+
+#account-containerception{
+    align-items: center;
+}
+
+#accountbadge{
+    margin-top: 25px;
+}
+
+#changepw{
+width: 200px;
+padding: 0px;
+height: 35px;
+margin-right: 25px;
+border-radius: 5px ;
+}
+
+#logout{
+    width: 200px;
+    padding: 0px;
+    height: 35px;
+    background-color: tomato;
+    border-color: transparent;
+    margin-left: 25px;
+    border-radius: 5px ;
+}
+
+#modifyacctbtns{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 25px;
+}
+
+@media (width < 450px){
+    #logout{
+        margin-left:0px ;
+    }
+    #changepw{
+        margin-right:0px ;
+    }
+}

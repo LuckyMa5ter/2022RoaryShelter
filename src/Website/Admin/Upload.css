@@ -1,0 +1,138 @@
+#logo{
+  
+    margin-top: 20px;
+   
+  }
+  
+  #letsuplaod{
+    text-decoration: underline skyblue;
+    text-underline-position: under;
+    text-align: center;
+    display: block;
+    color: white;
+  }
+  
+  #imgprv {
+    display: block;
+    text-align: center;
+    margin-bottom: 0px;
+    
+    padding-bottom: 0px;
+  }
+
+  #storeimg{
+    height: 128px;;
+    width: 128px;
+    margin-top: 0px;
+  }
+  
+  #subimgprv{
+    position: relative;
+    display: block;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+  }
+  
+  #updinst {
+    font-size: 12px;
+   text-align:center ;
+    
+     text-decoration: underline skyblue;
+    text-underline-position: below;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    
+  }
+  #subhandler {
+    padding-top: px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    width: 200px;
+    min-height: 550px;
+   
+  }
+  
+  #uploadbttnst {
+    border-color: skyblue;
+    background-color: white;
+    
+    margin: auto;
+    text-align: center;
+   
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px 120px;
+  
+  }
+  
+  #nameinputst{
+    border-color: transparent;
+    border-bottom-color: skyblue;
+    
+    
+  }
+  
+  #quantityst{
+    border-color: transparent;
+    border-top: skyblue;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  #submitbttnst {
+    border: none;
+    outline: none;
+    background: #0790E8;
+    color: white;
+    width: 100%;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    
+    letter-spacing: 2px;
+    margin-top: 25px;
+    border-radius: 14px;
+
+  }
+  
+  #progress {
+   margin: 0 auto;
+   margin-top: 10px;
+   display: block;
+   width: 75%;
+  }
+  
+  #subhandler{
+   
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    margin-top: 0px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+    
+  }
+  
+  #storecontainer {
+    
+  font-family: 'Rubik', sans-serif;
+  }
+
+  #fileinputst{
+    height: 40px;
+    margin-left: 80px;
+    background-color: transparent;
+  }
+
+  #timebuttons{
+    padding-bottom: 10px;
+    margin-top:20px;
+  }
+
+  
+  

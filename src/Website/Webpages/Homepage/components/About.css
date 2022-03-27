@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.textesNuts span{
+    font-size: 35px;
+    color: black;
+    font-style: normal;
+    font-weight: 200;
+    text-emphasis-color: black;
+    margin-bottom: 20px;
+}

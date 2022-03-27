@@ -1,0 +1,487 @@
+#pagebg1{
+    /* The image used */
+  background-image: url("http://www.shielsexton.com/wp-content/uploads/2015/12/DSF9892-Edit.jpg");
+ 
+  /* Full height */
+  height: 100vh;
+
+  /* Center and scale the image nicely */
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align:middle;
+  
+  padding-left: 80px;
+  padding-right: 80px;
+  top: -130px;
+  color: white;
+}
+#pagecontainer{
+  
+}
+#titletext{
+margin-top: 75px;
+display: block;
+}
+
+#maintitle{
+  position: absolute;
+  top: 105px;
+  left: 100px;
+font-family: 'Lexend', sans-serif;  font-size: 48px;
+}
+#subtitle{
+  font-family: 'Lexend', sans-serif;  font-size: 2vw;
+  position: absolute;
+  top: 200px;
+  left: 10vw;
+  /* left: 100px; */
+ /* width: 600px;*/
+  display:inline;
+  text-align:inherit;
+  /* Pretty sure this require's an @media, but im not sure */
+  padding-right:50px;
+}
+
+@media (max-width: 425px) {
+  #subtitle {
+    font-family: 'Lexend', sans-serif;  font-size: 24px;
+    position: absolute;
+    top: 200px;
+    left: 3vw;
+    /* left: 100px; */
+   /* width: 600px;*/
+    display:inline;
+    text-align:inherit;
+    /* Pretty sure this require's an @media, but im not sure */
+    padding-right:10px;
+    font-style: normal;
+    font-weight: lighter;
+  }
+}
+
+@media ( width > 425px  ) and
+(width <1000px)
+{
+#subtitle{
+  font-size: 20px;
+  width: 75vw;
+}
+}
+
+#continuebutton{
+  background-color: transparent;
+  position: absolute;
+  border-color: white;
+  left: 10vw;
+  top: 300px;
+  border-style: solid;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  font-family: 'Lexend', sans-serif;  font-size: 20px;
+}
+
+@media (max-width: 425px) {
+  #continuebutton{
+    top: 345px;
+    left: 6vw;
+  }
+} 
+
+html {
+  /* Setting to div to 100% to demo the animation full screen */
+  height: 100%; 
+}
+
+body {
+height: 100%;
+margin:0;
+
+}
+
+#blur{
+  filter: blur(2px);
+}
+
+.fadeIn{
+width: 100%;
+height:100%;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+animation: fade-in-scale-down 5s ease-out 1;
+-webkit-animation: fade-in-scale-down 5s ease-in-out 1;
+-moz-animation:    fade-in-scale-down 5s ease-in-out 1;
+-o-animation:      fade-in-scale-down 5s ease-in-out 1;
+}
+
+@keyframes fade-in-scale-down{
+0%{
+  opacity:0;
+  -webkit-transform:scale(1.1);
+  -ms-transform:scale(1.1);
+  transform:scale(1.1)
+}
+
+100%{
+  opacity:1;
+  -webkit-transform:scale(1);
+  -ms-transform:scale(1);
+  transform:scale(1);
+}
+}
+.navNo{
+  background: transparent;
+  
+}
+.navYes{
+background: linear-gradient(to right , #0E61D1 0%, #0790E8 100%);
+height: 100px;
+padding-right: 25px;
+
+}
+
+#whole-container{
+
+  margin: 0 auto;
+  border-radius: 3px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+  }
+  
+  
+  
+  #stars{
+    height: 25px  ;
+    padding-right: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0.5rem;
+  }
+  
+  #subheader{
+    display: flex;
+    background-color: #172b4d;
+    color: white;
+    
+  
+  }
+  
+  #subheadertext{
+    padding-top: 10px;
+    padding-bottom:10px;
+  }
+  
+  #logobar{
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+  
+  #logo{
+    display: flex;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 1px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+  }
+  #heart{
+    height:20px;
+    padding-left: 0.5rem;
+    padding-right: 3px;
+    padding-top: 5px;
+  }
+  
+  #navlinks{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding-left: 50px;
+  }
+  
+  #suli{
+    display: flex;
+    margin-left: auto;
+    width: 125px;
+    justify-content: space-between;
+    padding-right: 10px;
+    
+  }
+  
+  #login{
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 3px;
+    margin-top: 3px;
+    border-color: #1966ae;
+    cursor: pointer;
+    color: #1966ae;
+    transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    
+  }
+  
+  #login:hover{
+    color:#172b4d;
+    border-color:#172b4d;
+  }
+  
+  #signup{
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    padding: 3px;
+    margin-top: 3px;
+    border-color: #1966ae;
+    background-color: #1966ae;
+    color: white;
+    margin-left:9px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    
+  }
+  
+  #signup:hover {
+    background-color: #172b4d;
+    
+  }
+  
+  #hsevid{
+    max-width:1260px; ;
+  }
+  
+  #image{
+       height: 100vh;
+  
+    /* Center and scale the image nicely */
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align:middle;
+    padding-top: 50px;;
+  }
+  
+  #IMGOVERH{
+     position: absolute;
+    top: 30px;
+    left: 100px;
+  font-family: 'Lexend', sans-serif;  font-size: 40px;
+  }
+  
+  #IMGOVERSH{
+     position: absolute;
+    top: 100px;
+    left: 100px;
+    width: 400px;
+  }
+  
+  #IMGBTN{
+    position: absolute;
+    left: 100px;
+    top: 185px;
+    border-style: solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border-width: 1px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  
+  }
+  
+  #IMGBTN:hover{
+    background-color: white;
+    color: black;
+  }
+  
+  #prog{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+  }
+  
+  #prodet{
+    font-family: 'Lexend', sans-serif;
+    display:flex;
+  }
+  
+  #prodeth{
+    margin-left: 10px;
+    width: calc(5/12*100%);
+  
+  }
+  
+  #prdebtn{
+    width: 100px;
+    display: block;
+    margin-top: 20px;
+    padding-left: 18px;
+    padding-right: 15px;
+    border-width: 1px;
+   background-color: #1966ae;
+    color: white;
+    border-radius: 3px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  #prdebtn:hover{
+    background-color: #172b4d;
+  }
+  
+  #ufc{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  #easy{
+  padding-top: 15px;  
+  padding-left: 10px;
+  width: 48px
+  }
+  
+  #uf{
+    display: flex;
+    flex-direction: row ;
+    margin-top: 15px;
+  }
+  
+  #ufhsh{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  
+  }
+  
+  #easyh{
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  #confc{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    margin-right: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  #reach{
+    display: flex;
+    margin-top: 100px;
+    font-family: 'Lexend', sans-serif;
+  
+  }
+  
+  #reacht{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 200px;
+    width: calc(1/3*100%)
+  }
+  
+  #reachh{
+    text-decoration: underline;
+    text-decoration-color: #1966ae;
+  }
+  
+  #reachsh{
+    font-size: 18px;
+  }
+  
+  #tgusingphone{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: box-shadow 0.2s ease-in-out;
+  max-width: 315px;
+  max-height: 410px;
+  }
+  
+  #tgusingphone2{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: box-shadow 0.2s ease-in-out;
+  max-width: 315px;
+  max-height: 410px;
+   margin-left: 150px;
+    margin-right: 200px;
+  }
+  
+  #tgusingphone:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  #reach2{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 100px;
+    font-family: 'Lexend', sans-serif;
+    padding-bottom: 100px;
+  }
+  
+  #stats{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #1966ae;
+  color: white;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 25px;
+  margin-bottom: 100px;
+  
+  }
+  
+  #statsh{
+    opacity: 0.7;
+    font-family: 'Lexend', sans-serif;
+  }
+  
+  #stath{
+    font-family: 'Rubik', sans-serif;
+  }
+  
+  #navlink{
+    cursor: pointer;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    padding: 5px;
+    border-radius: 3px;
+  }
+  
+  #navlink:hover{
+    color: white;
+    background-color: #1966ae;
+  
+  }
+
+
+  #smoothscrollbutton{
+    color: white;
+  }
+
+  .activessb{
+   
+    border-bottom-style:solid ;
+    border-bottom-width:1px ;
+    border-bottom-color: white;
+    
+  }
+  

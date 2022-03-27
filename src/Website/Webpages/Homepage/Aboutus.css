@@ -1,0 +1,34 @@
+.services {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 40px;
+  text-align: center;
+}
+
+.services .service .icon img {
+  max-width: 100px;
+}
+
+.services .service {
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.services .service h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-top: 20px;
+  color: var(--secondary-color);
+}
+
+.services .service p {
+  line-height: normal;
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+#aboutss{
+  width: 500px;
+  height: 500px;
+}

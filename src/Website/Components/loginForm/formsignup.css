@@ -1,0 +1,23 @@
+#name2{
+    border-style: hidden;
+    border-bottom-style: solid ;
+    border-bottom-color: gray;
+    transition:  0.5s;
+    width: 65%;
+    height: 25px;
+    outline: none;
+    padding-left: 25px;
+    background-color: transparent;
+    font-size: 10px;
+}
+
+#name2:focus{
+    outline: none;
+    border-bottom-color: #1966ae;
+    color: #1966ae;
+    
+}
+
+#signInTitle{
+    margin-bottom: 75px;
+}

@@ -1,0 +1,19 @@
+#cardcontcard{
+    width: 350px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: white;
+height: fit-content;
+overflow: hidden;
+border-radius: 10px;
+padding: 25px;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+margin-top: 25px;
+}
+
+#cardcont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}

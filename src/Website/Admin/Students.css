@@ -1,0 +1,54 @@
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+
+  }
+  #icon:hover{
+    cursor: pointer;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin-left:15px ;
+    border-color:transparent ;
+  width: 90%;
+  }
+  
+  th,
+  td {
+  
+    text-align: center;
+    padding: 8px;
+    font-size: 10px;
+    border-bottom-left-radius: 0px;
+
+    
+  }
+  
+  th {
+    background-color: white;
+  }
+  
+  td {
+    background-color: white;
+  }
+  
+  form {
+    display: flex;
+    gap: 5px;
+  }
+  
+  form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  form * {
+    font-size: 28px;
+  }
+  #wrap{
+    width: 80vh;
+  }

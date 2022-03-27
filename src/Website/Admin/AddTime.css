@@ -1,0 +1,206 @@
+#dateentry1{
+    margin-right: 0px;
+    margin-bottom: 75px;
+}
+
+#popup-inner1{
+  position: fixed;
+  top: 30px;
+  right: center;
+  
+  padding-left: 36px;
+  width: 1000px;
+height: 750px;
+  max-width: 800px;;
+  background-color: white;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: 10px 10px;
+  border-radius: 5px;
+}
+
+#name1{
+    border-style: hidden;
+    border-bottom-style: solid ;
+    border-bottom-color: gray;
+    transition:  0.5s;
+    width: 75%;
+    height: 40px;
+    outline: none;
+    padding-left: 25px;
+}
+
+#name1:focus{
+    outline: none;
+    border-bottom-color: #1966ae;
+    color: #1966ae;
+    
+}
+
+#mselector{
+    position: relative;
+    top: 500px;
+}
+
+#popup_submit{
+   margin-left: 100px;
+}
+
+#date-container{
+    background-color: white;
+    border-style: solid;
+    border-radius: 12.5px;
+    width: 75%;
+    border-width: 0.5px;
+   margin-left: 10%;
+    margin-top: 3%;
+    height: 650px;
+    display:flex;
+    
+}
+
+
+
+#date_information{
+    flex-grow: 1;
+    width: 20%;
+    border-right: solid;
+    border-color: gray;
+    border-width: 1.5px;
+    word-wrap: break-word;
+    padding-left: 15px
+    ;
+    padding-right: 10px;
+}
+
+#datetime{
+    flex-grow: 1.5;
+    padding-left: 5%;
+    
+    padding-top:0% ;
+    display: flex;
+    flex-direction: row;
+}
+
+@media ( width < 800px){
+  #datetime{
+    flex-direction: column;
+  }
+  #picktimetitle{
+    display: none;
+  }
+  #cal{
+    margin: 0px;
+    padding: 0px;;
+  }
+
+  .myCustomCalendar{
+    display: none;
+  }
+  
+}
+
+#detailtxt{
+    word-wrap: break-word;
+   
+}
+
+#times{
+padding-left: 5%;
+padding-top:5% ;
+display: flex;
+flex-direction: column;
+}
+
+#timebutton{
+    background-color: #1966ae; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .myCustomCalendar {
+   font-size: 16px !important;
+    box-shadow: none !important;
+  }
+
+  @media (height < 720px){
+      .myCustomCalendar{
+        font-size: 12px !important;
+      }
+
+  }
+
+  @media(height < 580px){
+    .myCustomCalendar{
+        font-size: 10px !important;
+      }
+  }
+  
+  .myCustomCalendar .Calendarsection.-hiddenNext {
+    transform: translateX(100%);
+  }
+  .myCustomCalendar .Calendarsection.-hiddenPrevious {
+    transform: translateX(-100%);
+  }
+  
+  .myCustomCalendar .Calendarsection {
+    padding: 0 ; 
+  }
+  
+  .myCustomCalendar .CalendarweekDays {
+    padding: 15px;
+  }
+
+  #confirmbutton{
+    position: relative;
+    
+    top: 25px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: #1966ae;
+    margin-bottom: 75px;
+    border-radius: 30px;
+    width: 150px;
+   border-color: gray;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    
+    background-color:transparent;
+}
+
+#ddtscont{
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+  margin-top: 50px;
+  
+}
+
+#selectedindic{
+  display: flex;
+  flex-direction: row;
+}
+
+#tstitle{
+  position: relative;
+  top: 30px;
+  margin-left: 15px;
+}

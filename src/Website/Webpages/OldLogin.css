@@ -1,0 +1,185 @@
+#pagecontainer-, html{
+    height: 100vh;
+}
+
+#pagebg-{
+   
+  
+ 
+
+  height: 100vh;
+
+  
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align:middle;
+  padding-top: 75px;;
+}
+
+#logincontainer-{
+    background-color: white;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 5px;
+    margin:auto;
+    display: block;
+    max-width: 500px;
+    padding-top: 0px;;
+    min-height: 85%;
+}
+
+#name-{
+    border-style: hidden;
+    border-bottom-style: solid ;
+    border-bottom-color: gray;
+    transition:  0.5s;
+    width: 85%;
+    height: 40px;
+    outline: none;
+    padding-left: 25px;
+}
+
+#username-{
+    display: block;
+    margin-left: px;
+    transition: ease-in-out 0.2s;
+    margin-top: 75px;
+}
+
+
+
+#usericon-{
+   margin-top: 5px ;
+    color: gray;
+   transition: ease-in-out 0.5s;
+   position: relative;
+   left: 20px;
+}
+
+#name-:focus{
+    outline: none;
+    border-bottom-color: #1966ae;
+    color: #1966ae;
+    
+}
+
+@keyframes slideIn {
+    0%{
+        transform: skewX(53deg) translateX(-500px);
+    }
+    100%{
+        transform: skew(0deg);
+    }
+}
+
+#userfield-{
+    display: inline;
+    height: 40px;
+}
+
+#usertitle-{
+    font-size: 16px;
+    margin-left:17px;;
+}
+
+#logintitle-{
+    display: block;
+   text-align: center;
+font-weight: 700;
+margin-top:50px;
+}
+
+
+#placeholdermove-{
+    position: relative;
+   display: inline-block;
+top: -30px;
+right: -40px;    
+}
+
+#name-:focus ~ #usericon-:valid
+ {
+color: blue;
+}
+
+#usericon-{
+    color: gray;
+}
+
+#signinbutton-{
+    position: relative;
+    left: 15px;
+    top: 25px;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    position: center;
+    border-radius: 30px;
+    width: 200px;
+   border-color: transparent;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    
+    background-color: #0790E8;
+}
+
+#signinbutton-:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    
+}
+
+#errorfield-{
+    font-size: 16px;
+    color: red;
+    padding-left: 65px;
+}
+
+#bottomstuff-{
+    text-align: center;
+    margin-top:55px;;
+
+}
+
+#signuplink-{
+    color: 	#0645AD;
+    
+    
+    
+    font-size: 14px;
+}
+
+#or-{
+    font-size: 14px;
+}
+
+#homelink-{
+    color: 	#0645AD;
+    font-size: 14px;
+}
+
+#signuplink-:hover{
+    cursor: pointer;
+}
+
+#homelink-:hover{
+   cursor: pointer;
+}
+
+#usericon1-{
+    color: blue;
+    margin-top: 5px ;
+    
+   transition: ease-in-out 0.5s;
+   position: relative;
+   left: 20px;
+}
+
+.coloricon-:focus{
+    color:blue;
+}

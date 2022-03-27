@@ -1,0 +1,72 @@
+.mbody{
+    position:absolute;
+    top:10%;
+    left: 0;
+    margin-left:10% ;
+    width:80%;
+    background-color:#fff;
+    border: 10px solid #fff;
+    border-radius:5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    height: 75%;
+  }
+  .mbody input{
+    border:none;
+    width:95%;
+
+    font-size:1em;
+    border-style: solid;
+    border-color: gray;
+    border-width: 0.2px;
+    border-radius: 10px;
+    background-color: transparent;
+    
+  }
+  .mbody input:focus,.body button:focus{
+    outline:none;
+  }
+  .mbody button{
+    width: 75px;
+    border-radius:25px;
+    background:  #1966ae;;
+    padding-top:5px;
+    padding-bottom:5px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size:1em;
+    text-align: center;
+    padding-right: 10px;
+    margin-left: 75%;
+    margin-top: 90%;
+  }
+
+  #manounsubj{
+    border-style: none;
+     margin-bottom: 0px;
+     border-bottom-style: none;
+     border-bottom-right-radius: 0px;
+     border-bottom-left-radius: 0px;
+     font-size: 30px;
+     font-weight: bold;
+  }
+  
+  #manountext{
+    margin-top: 0px;
+    border-top-style: none;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-style: none;
+    padding-bottom: 35%;
+ }
+
+ /* #anountext::placeholder{
+   position: top;
+ } */
+
+ #mcurrentanoun{
+   position: relative;
+   top: 60%;
+   left: 35px;
+ }

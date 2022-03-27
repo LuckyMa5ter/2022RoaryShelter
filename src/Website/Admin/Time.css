@@ -1,0 +1,123 @@
+.picker {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2ch;
+    position: relative;
+    box-sizing: border-box;
+  }
+  
+  .picker::before,
+  .picker::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    background: linear-gradient(
+      hsl(200 20% 10%), 
+      65%,
+      hsl(200 20% 10% / 0%)
+    );
+    /*   backdrop-filter: blur(1px); */
+    width: 100%;
+    height: calc(50% - 3.5ex);
+    pointer-events: none;
+    border-radius: 15px;
+  }
+  
+  .picker::after {
+    top: auto;
+    bottom: 0;
+    background: linear-gradient(
+      hsl(200 20% 10% / 0%), 
+      35%, 
+      hsl(200 20% 10%)
+    ); 
+  }
+  
+  .picker > * {
+    display: grid;
+    grid-auto-rows: 9vmin;
+    align-items: center;
+    max-block-size: calc(9vmin * 5);
+    overflow-y: auto;
+    overscroll-behavior-y: contain;
+    scroll-snap-type: y mandatory;
+    padding-inline-end: 1ch;
+    font-size: 7vmin;
+    font-weight: lighter;
+    color: hsl(0 0% 20%);
+  }
+  
+  .picker > [title]::before {
+    content: attr(title);
+    position: sticky;
+    top: 0;
+    align-self: start;
+    color: hsl(0 0% 65%);
+    z-index: 1;
+    font-size: min(.5em, 40%);
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 1px 1px hsl(0 0% 0% / 50%);
+  }
+  
+  .picker > [title]:first-child::before {
+    text-align: end;
+  }
+  
+  .picker > * > * {
+    scroll-snap-align: center;
+  }
+  
+  date {
+    text-align: end;
+  }
+  
+  time {
+    text-align: center;
+  }
+  
+  date, time {
+    color: gray;
+  }
+  
+  html {
+    block-size: 100%;
+    inline-size: 100%;
+    background: hsl(200 20% 10%);
+  }
+  
+  body {
+    min-block-size: 100%;
+    min-inline-size: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    display: grid;
+    place-content: center;
+    font-family: system-ui, sans-serif;
+  }
+  .btn{
+    border: none;
+    outline: none;
+    background:#1C8EFE;
+    color: white;
+    width: 100%;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 15px 0;
+    border-radius: 14px;
+  }
+  #rap{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background:transparent;
+    padding: 20px;
+    font-family: 'Open Sans Condensed';  
+
+    background-color: white;
+    border-radius: 10px;
+  }

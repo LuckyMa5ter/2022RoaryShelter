@@ -1,0 +1,94 @@
+.hpopup {
+    
+   
+    
+    height: 100vh;
+    /*filter: blur(2px); */
+    /* Center and scale the image nicely */
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align:middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+.hpopup-inner{
+    position: fixed;
+    top: 150px;
+    right: center;
+    padding-top: 0px;
+    padding-left: 0px;
+    width: 750px;
+height: 50px;
+    
+   
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-position: 10px 10px;
+    border-radius: 5px;
+}
+
+.close-btn{
+    position: relative;
+    top: -50px;
+    padding: 5px 10px;
+    right: -5px;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+}
+
+.close-btn:hover{
+    color:black;
+    background-color: rgb(0, 196, 211);
+}
+
+#popup-title{
+    font-family: 'Cabin', sans-serif;
+    font-size: 40px;
+    line-height: 1.2em;
+    font-weight:bold;
+    margin-bottom: -15px;
+
+}
+
+#popup-subtitle{
+    margin-left:5px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;;
+    color: gray;
+}
+#cockclipart1{
+    display: block;
+    height: 50px;;
+    text-align: center;
+    margin-left: 125px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+#dateentry{
+    margin-bottom: 25px;
+}
+
+#closeicon{
+    display: block;
+    margin-top:10px ;
+    margin-right: 25px;
+    margin-left: auto;
+    height: 25px;;
+    position: relative;
+    top: 30px;
+}
+
+#closeicon:hover{
+    cursor:pointer;
+    color: red;
+}
+
